@@ -2,17 +2,20 @@
   <header class="page-header">
     <!-- Background -->
     <div class="content-top-bg">
-      <div class="content-top-bg-overlay">
-      </div>
+      <div class="content-top-bg-overlay"></div>
     </div>
 
     <!-- Container -->
     <div class="container">
       <div class="container-content-wrapper">
-        <img :src="headerData.srcImage" class="img-fluid">
+        <img :src="headerData.srcImage" class="img-fluid" />
         <h1 class="heading mt-4">{{ headerData.title }}</h1>
         <p class="subheading">{{ headerData.subtitle }}</p>
-        <XLButton :icon="headerData.button.icon" :label="headerData.button.label" @click="_onButtonClicked()"></XLButton>
+        <XLButton
+          :icon="headerData.button.icon"
+          :label="headerData.button.label"
+          @click="_onButtonClicked()"
+        ></XLButton>
       </div>
     </div>
   </header>

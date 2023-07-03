@@ -31,5 +31,4 @@ const _onProjectOpened = (project) => {
 }
 </script>
 
-<style scoped>
-</style>
+<style scoped></style>
