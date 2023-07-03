@@ -1,18 +1,17 @@
 {
   "header": {
-    "title": "Foxy Agency Template",
-    "subtitle": "Made by Ryan Balieiro with Vue3 and Bootstrap 5.0",
-    "srcImage": "images/agency-logo.png",
+    "title": "Liyabona Mxhalisa",
+    "subtitle": "Student & Software Developer",
+    "srcImage": "https://i.postimg.cc/W1M2Dr87/1686734383073.png",
     "button": {
-      "label": "Find Out More",
+      "label": "Read More",
       "icon": "fa fa-search",
       "targetSection": "about"
     }
   },
 
   "navbar": {
-    "brand": "<span class='text-primary'>Foxy</span> Agency",
-    "srcLogo": "images/agency-logo-small.png",
+    "srcLogo": "https://i.postimg.cc/W1M2Dr87/1686734383073.png",
     "menuOptions": [
       {
         "id": "about",
@@ -49,63 +48,49 @@
 
   "about": {
     "id": "about",
-    "title": "<span class='text-primary'>About</span> Template",
-    "subtitle": "Get to know more about the project!",
+    "title": "<span class='text-primary'>About</span>",
+    "subtitle": "Get to know me",
     "content": {
-      "image": "images/agency-logo.png",
+      "image": "https://i.postimg.cc/dV7q5bG3/my-picture.jpg",
       "paragraphs": [
-        "Ryan Balieiro created the Foxy Agency Template, a free Vue3 & Bootstrap 5.0 theme. The downloadable files consist of the entire source code, including HTML, CSS, and Javascript. Please feel free to download and customize the theme as you wish.",
-        "With this template, you have the freedom to create custom sections, fill pre-existing ones with your own content, and personalize the colors, fonts, and much more to your liking.",
-        "In case you encounter any challenges while attempting to customize or run this template, please feel free to reach out to me without any hesitation. I would be more than happy to extend my assistance and help you out in every possible way."
+        "I am web developer based in Cape Town, South Africa. I'm currently a student at LifeChoice Academy, where I've been developing my skills in HTML, CSS, JavaScript & Vue JS. I am passionate about creating visually stunning web experiences that not only look great, but also function seamlessly. In my free time, I enjoy exploring new technology, playing video games and hitting the gym."
       ]
     },
     "button": {
-      "label": "Download Now!",
+      "label": "My CV",
       "icon": "fa-solid fa-download",
-      "href": "https://github.com/ryanbalieiro/foxy-template"
+      "href": ""
     }
   },
 
   "services": {
     "id": "services",
-    "title": "Our <span class='text-primary'>Services</span>",
-    "subtitle": "This section can be used to describe what you offer!",
+    "title": "My Skills",
+    "subtitle": "What I am able to use",
 
     "items": [
       {
         "title": "Vue3",
         "icon": "fa-brands fa-vuejs",
-        "description": "This template is built using the Vue3 JavaScript framework, providing a modern and efficient development experience."
+        "description": "Vue.js, a powerful JavaScript framework renowned for its simplicity and efficiency in building interactive and responsive user interfaces for modern web applications."
       },
 
       {
-        "title": "Responsive Design",
-        "icon": "fa-solid fa-laptop",
-        "description": "This template is designed to adapt seamlessly to various screen sizes, providing a consistent user experience across devices."
+        "title": "HTML",
+        "icon": "fa-solid fa-brands fa-html5",
+        "description": " HTML, the foundational language of the web, which I use to create the structure and layout of websites, ensuring they are accessible, semantically correct, and visually appealing.."
       },
 
       {
-        "title": "Minimalist",
-        "icon": "fa-solid fa-wand-magic",
-        "description": "This template features a clean and simple design, with a focus on essential elements, resulting in a modern and elegant look."
+        "title": "Javascript",
+        "icon": "fa-solid fa-brands fa-js",
+        "description": " JavaScript, a versatile and powerful programming language that enables me to create dynamic and interactive experiences on the web."
       },
 
       {
-        "title": "Fully Customizable",
-        "icon": "fa-solid fa-hand-sparkles",
-        "description": "This template can be easily customized to match your brand's visual identity and requirements, giving you full control over the design and functionality."
-      },
-
-      {
-        "title": "Open Source",
-        "icon": "fa-solid fa-code",
-        "description": "This template is open-source, meaning the code is publicly accessible and can be modified or redistributed without restrictions."
-      },
-
-      {
-        "title": "Lightweight",
-        "icon": "fa-solid fa-feather",
-        "description": "This template is optimized for performance and speed, with a minimal codebase and minimal dependencies, resulting in a faster load time and improved user experience."
+        "title": "Bootstrap",
+        "icon": "fa-solid fa-brands fa-bootstrap",
+        "description": " Bootstrap, a popular front-end framework that allows me to create modern and responsive websites with ease. "
       }
     ]
   },
@@ -247,18 +232,18 @@
     "links": {
       "title": "Connect With Us",
       "items": [
-        {"icon": "fa-brands fa-twitter", "href": "https://twitter.com"},
-        {"icon": "fa-brands fa-facebook", "href": "https://facebook.com"},
-        {"icon": "fa-brands fa-linkedin", "href": "https://linkedin.com"},
-        {"icon": "fa-brands fa-spotify", "href": "https://spotify.com"}
+        { "icon": "fa-brands fa-twitter", "href": "https://twitter.com" },
+        { "icon": "fa-brands fa-facebook", "href": "https://facebook.com" },
+        { "icon": "fa-brands fa-linkedin", "href": "https://linkedin.com" },
+        { "icon": "fa-brands fa-spotify", "href": "https://spotify.com" }
       ]
     },
 
     "otherLinks": {
       "title": "Other Links",
       "items": [
-        {"label": "Privacy Policy", "href": "#"},
-        {"label": "Terms Of Use", "href": "#"}
+        { "label": "Privacy Policy", "href": "#" },
+        { "label": "Terms Of Use", "href": "#" }
       ]
     },
 
