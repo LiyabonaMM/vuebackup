@@ -4,7 +4,9 @@
       <div class="row">
         <!-- Footer Location -->
         <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4"><i class="fa fa-map-pin me-2"></i>{{ footerData.location.title }}</h4>
+          <h4 class="text-uppercase mb-4">
+            <i class="fa fa-map-pin me-2"></i>{{ footerData.location.title }}
+          </h4>
           <p class="text-address" v-html="footerData.location.address"></p>
         </div>
 
@@ -12,7 +14,11 @@
         <div class="col-lg-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">{{ footerData.links.title }}</h4>
           <template v-for="item in footerData.links.items">
-            <a class="btn btn-social mx-2" :href="item.href" :aria-label="item.icon">
+            <a
+              class="btn btn-social mx-2"
+              :href="item.href"
+              :aria-label="item.icon"
+            >
               <i :class="item.icon"></i>
             </a>
           </template>
@@ -35,7 +41,7 @@
 </template>
 
 <script setup>
-import agencyData from '../data/agency.json'
+import agencyData from '../data/db.json'
 
 const footerData = agencyData.footer
 </script>

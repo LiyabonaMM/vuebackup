@@ -1,5 +1,9 @@
 <template>
-  <PageSectionWrapper :id="servicesData.id" :title="servicesData.title" :subtitle="servicesData.subtitle">
+  <PageSectionWrapper
+    :id="servicesData.id"
+    :title="servicesData.title"
+    :subtitle="servicesData.subtitle"
+  >
     <div class="row text-center">
       <template v-for="item in servicesData.items">
         <!-- Item -->
@@ -22,7 +26,7 @@
 </template>
 
 <script setup>
-import agencyData from '../data/agency.json'
+import agencyData from '../data/db.json'
 import PageSectionWrapper from "../components/PageSectionWrapper.vue";
 const servicesData = agencyData.services
 </script>
@@ -36,5 +40,4 @@ const servicesData = agencyData.services
     padding-right: 1rem;
   }
 }
-
 </style>

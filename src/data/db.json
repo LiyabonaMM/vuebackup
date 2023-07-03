@@ -20,22 +20,22 @@
       },
       {
         "id": "services",
-        "label": "Services",
+        "label": "Skills",
         "icon": "fa-solid fa-wrench"
       },
       {
         "id": "portfolio",
-        "label": "Portfolio",
+        "label": "Projects",
         "icon": "fa-solid fa-camera"
       },
       {
         "id": "team",
-        "label": "Team",
+        "label": "Testimonials",
         "icon": "fa-solid fa-user"
       },
       {
         "id": "reviews",
-        "label": "Reviews",
+        "label": "Resume",
         "icon": "fa-solid fa-comment"
       },
       {

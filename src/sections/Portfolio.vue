@@ -1,23 +1,34 @@
 <template>
-  <PageSectionWrapper :id="portfolioData.id" :title="portfolioData.title" :subtitle="portfolioData.subtitle">
+  <PageSectionWrapper
+    :id="portfolioData.id"
+    :title="portfolioData.title"
+    :subtitle="portfolioData.subtitle"
+  >
     <div class="row h-100">
       <template v-for="project in portfolioData.projects">
         <div class="col-6 col-md-4 mb-4">
           <!-- Portfolio Item -->
           <div class="portfolio-item box-shadow-with-border h-100">
-
             <!-- Clickable Image -->
             <a class="portfolio-link" @click="_onProjectSelected(project)">
               <div class="portfolio-hover">
-                <div class="portfolio-hover-content"><i class="fas fa-eye fa-2x"></i></div>
+                <div class="portfolio-hover-content">
+                  <i class="fas fa-eye fa-2x"></i>
+                </div>
               </div>
-              <img class="portfolio-cover-img img-fluid" :src="project.srcImage" :alt="project.title" />
+              <img
+                class="portfolio-cover-img img-fluid"
+                :src="project.srcImage"
+                :alt="project.title"
+              />
             </a>
 
             <!-- Info -->
             <div class="portfolio-caption">
               <h5 class="mb-1">{{ project.title }}</h5>
-              <p class="portfolio-item-category text-muted">{{ project.category }}</p>
+              <p class="portfolio-item-category text-muted">
+                {{ project.category }}
+              </p>
             </div>
           </div>
         </div>
@@ -27,7 +38,7 @@
 </template>
 
 <script setup>
-import agencyData from '../data/agency.json'
+import agencyData from '../data/db.json'
 import PageSectionWrapper from "../components/PageSectionWrapper.vue"
 const portfolioData = agencyData.portfolio
 const emit = defineEmits(['projectClicked'])

@@ -1,40 +1,72 @@
 <template>
-  <PageSectionWrapper :id="contactData.id" :title="contactData.title" :subtitle="contactData.subtitle" :is-dark-section="true">
+  <PageSectionWrapper
+    :id="contactData.id"
+    :title="contactData.title"
+    :subtitle="contactData.subtitle"
+    :is-dark-section="true"
+  >
     <form id="contact-form">
       <div class="row align-items-stretch mb-3">
         <div class="col-md-6">
           <div class="form-group">
             <!-- Name input-->
-            <input class="form-control" id="name" type="text" :placeholder="contactData.placeholders.name" required/>
+            <input
+              class="form-control"
+              id="name"
+              type="text"
+              :placeholder="contactData.placeholders.name"
+              required
+            />
           </div>
 
           <div class="form-group">
             <!-- Email address input-->
-            <input class="form-control" id="email" type="email" :placeholder="contactData.placeholders.email" required/>
+            <input
+              class="form-control"
+              id="email"
+              type="email"
+              :placeholder="contactData.placeholders.email"
+              required
+            />
           </div>
 
           <div class="form-group mb-md-0">
             <!-- Subject input-->
-            <input class="form-control" id="subject" type="text" :placeholder="contactData.placeholders.subject" required/>
+            <input
+              class="form-control"
+              id="subject"
+              type="text"
+              :placeholder="contactData.placeholders.subject"
+              required
+            />
           </div>
         </div>
         <div class="col-md-6">
           <div class="form-group form-group-textarea mb-md-0">
             <!-- Message input-->
-            <textarea class="form-control" id="message" :placeholder="contactData.placeholders.message" required></textarea>
+            <textarea
+              class="form-control"
+              id="message"
+              :placeholder="contactData.placeholders.message"
+              required
+            ></textarea>
           </div>
         </div>
       </div>
 
       <div class="text-center">
-        <XLButton :label="contactData.button.label" :type="'submit'" :icon="contactData.button.icon"></XLButton>
+        <XLButton
+          :label="contactData.button.label"
+          :type="'submit'"
+          :icon="contactData.button.icon"
+        ></XLButton>
       </div>
     </form>
   </PageSectionWrapper>
 </template>
 
 <script setup>
-import agencyData from '../data/agency.json'
+import agencyData from '../data/db.json'
 import PageSectionWrapper from "../components/PageSectionWrapper.vue"
 import XLButton from "../components/XLButton.vue";
 const contactData = agencyData.contact

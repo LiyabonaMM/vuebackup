@@ -22,7 +22,7 @@
 </template>
 
 <script setup>
-import agencyData from '../data/agency.json'
+import agencyData from '../data/db.json'
 import XLButton from "../components/XLButton.vue"
 import {useLayout} from '../composables/layout.js'
 
@@ -42,21 +42,13 @@ const _onButtonClicked = () => {
 }
 
 .content-top-bg {
-  background-image: url('../assets/header-bg.jpeg');
+  background-image: url('https://i.postimg.cc/158Cywh4/background-image2-jpg-min.png');
   background-position: center;
   background-size: cover;
   height: 100%;
   position: absolute;
   width: 100%;
   z-index: -1;
-
-  .content-top-bg-overlay {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(30, 30, 30, 0.73)), color-stop(70%, rgba(30, 30, 30, 0.86)), color-stop(80%, rgba(30, 30, 30, 0.99)), to(rgba(30, 30, 30, 1)));
-    background-image: linear-gradient(180deg, rgba(30, 30, 30, 0.73) 0%, rgba(30, 30, 30, 0.86) 30%, rgba(30, 30, 30, 0.99) 60%, rgba(30, 30, 30, 1) 100%);
-  }
 }
 
 .container {

@@ -1,14 +1,30 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" :class="{'navbar-shrink': !shouldExpand}" id="navbar">
+  <nav
+    class="navbar navbar-expand-lg navbar-dark fixed-top"
+    :class="{'navbar-shrink': !shouldExpand}"
+    id="navbar"
+  >
     <div class="container">
       <!-- Brand -->
       <a class="navbar-brand" href="#app">
-        <img :src="navbarData.srcLogo" alt="agency-logo" class="img img-fluid img-logo">
+        <img
+          :src="navbarData.srcLogo"
+          alt="logo"
+          class="img img-fluid img-logo"
+        />
         <span class="brand-text" v-html="navbarData.brand"></span>
       </a>
 
       <!-- Collapse Button (Small Screens) -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-collapse-container" aria-controls="navbar-collapse-container" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbar-collapse-container"
+        aria-controls="navbar-collapse-container"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <i class="fas fa-bars ms-1 me-1"></i>
       </button>
 
@@ -18,8 +34,13 @@
           <template v-for="menuOption in navbarData.menuOptions">
             <!-- Nav Item -->
             <li class="nav-item">
-              <a class="nav-link" :class="{'active': displayingSectionId === menuOption.id}" @click="_onNavLinkClicked(menuOption.id)">
-                <i :class="menuOption.icon" class="nav-link-icon d-lg-none"></i> {{ menuOption.label }}
+              <a
+                class="nav-link"
+                :class="{'active': displayingSectionId === menuOption.id}"
+                @click="_onNavLinkClicked(menuOption.id)"
+              >
+                <i :class="menuOption.icon" class="nav-link-icon d-lg-none"></i>
+                {{ menuOption.label }}
               </a>
             </li>
           </template>
@@ -30,7 +51,7 @@
 </template>
 
 <script setup>
-import agencyData from '../data/agency.json'
+import agencyData from '../data/db.json'
 import {onMounted, onUnmounted, ref} from "vue"
 import {useLayout} from '../composables/layout.js'
 
