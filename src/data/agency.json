@@ -48,7 +48,7 @@
 
   "about": {
     "id": "about",
-    "title": "<span class='text-primary'>About</span>",
+    "title": "<span class='text-primary'>About Me</span>",
     "subtitle": "Get to know me",
     "content": {
       "image": "https://i.postimg.cc/dV7q5bG3/my-picture.jpg",
@@ -97,118 +97,131 @@
 
   "portfolio": {
     "id": "portfolio",
-    "title": "Project <span class='text-primary'>Portfolio</span>",
-    "subtitle": "Get to know our amazing projects!",
+    "title": "My Projects",
+    "subtitle": "Projects I Have Built",
     "projects": [
       {
-        "title": "TechMeUp",
-        "category": "Marketing",
-        "srcImage": "images/portfolio/portfolio-1.png",
-        "tags": ["marketing", "seo", "growth"],
-        "description": "A project aimed at providing innovative software solutions to businesses. The company plans to expand its reach by developing a mobile app that will allow users to access their services from anywhere. With a focus on user experience, the app will feature a simple interface, fast loading times, and easy navigation. TechMeUp also plans to partner with other companies to offer integrated services, increasing revenue streams and boosting brand recognition. To support growth, the company will invest in marketing, including social media campaigns and targeted advertising."
+        "title": "LilMedia",
+        "category": "A Shoe Website",
+        "srcImage": "https://i.postimg.cc/c4VwR94S/vuelilmedia.png",
+        "tags": ["shoe", "fashion", "website"],
+        "description": ", I present a dynamic website that I built using a powerful combination of JavaScript, HTML, CSS, and Bootstrap. This fully responsive and visually appealing website showcases my ability to create engaging user experiences, leveraging JavaScript for interactivity, HTML for structure, CSS for styling, and Bootstrap for rapid development and seamless responsiveness across devices. Through this project, I demonstrate my proficiency in front-end web development, highlighting my skills in utilizing modern technologies to deliver an aesthetically pleasing and functional website."
       },
 
       {
-        "title": "PowerX",
-        "category": "Sales & Business",
-        "srcImage": "images/portfolio/portfolio-2.png",
-        "tags": ["sales", "business", "income"],
-        "description": "A sales project focused on selling high-end power tools to construction companies. The company plans to target medium to large-sized businesses with a high volume of construction projects and a need for top-quality tools. The sales team will utilize a consultative approach, first identifying the specific needs of each client and then providing tailored solutions. To drive sales, PowerX will offer competitive pricing, flexible payment terms, and bulk discounts."
+        "title": "Javascript Calculator",
+        "category": "Calculator",
+        "srcImage": "https://i.postimg.cc/jjKp5Y93/jscalculator.png",
+        "tags": ["javascript", "web", "functions"],
+        "description": "A basic calculator using Html, CSS and Javascript to calculate simple maths."
       },
 
       {
-        "title": "TransLink",
-        "category": "Logistics",
-        "srcImage": "images/portfolio/portfolio-3.png",
-        "tags": ["logistics", "management", "transportation"],
-        "description": "A logistics project focused on streamlining the transportation of goods for small and medium-sized businesses. The company plans to offer end-to-end logistics solutions, including transportation, warehousing, and distribution services. TransLink will utilize a tech-driven approach, providing real-time tracking of shipments and delivery updates via a user-friendly online portal. The company will also implement advanced analytics and automation tools to optimize supply chain management and reduce operational costs."
+        "title": "Temperature Convertor Calculator",
+        "category": "Calculator",
+        "srcImage": "https://i.postimg.cc/qRvWsXp8/temperature-convertor.png",
+        "tags": ["calculator", "javascript", "temperature"],
+        "description": "A basic temperature convertor using HTML, CSS and Javascript to convertor Celsius to Fahrenheit "
       },
 
       {
-        "title": "TimeTrack",
-        "category": "Mobile App",
-        "srcImage": "images/portfolio/portfolio-4.png",
-        "tags": ["app", "mobile", "time management"],
-        "description": "A fictional time management app project designed to help users increase productivity and manage their time effectively. The app will feature a simple and intuitive interface that allows users to set goals, track their progress, and analyze their performance. TimeTrack will utilize advanced analytics to provide personalized insights and recommendations, helping users optimize their schedules and prioritize their tasks. The app will also offer features like task batching, time-blocking, and habit tracking, allowing users to maximize their time and establish healthy habits."
+        "title": "Hulu",
+        "category": "Website",
+        "srcImage": "https://i.postimg.cc/VsGDT08k/hulu.png",
+        "tags": ["hulu", "mobile", "css"],
+        "description": "A hulu  clone website using only HTML and CSS"
       },
 
       {
-        "title": "ProjectPro",
-        "category": "Project Management",
-        "srcImage": "images/portfolio/portfolio-5.png",
-        "tags": ["project", "management", "software"],
-        "description": "A fictional project management solution aimed at helping businesses and teams efficiently manage their projects from start to finish. The software will provide a user-friendly interface that allows users to create and manage project tasks, timelines, and milestones. ProjectPro will also include features like resource allocation, budget tracking, and risk management, enabling teams to stay on track and within budget. The app will offer a real-time communication platform for team members to collaborate and share files, reducing the need for emails and meetings."
+        "title": " Lucid Clothing Store",
+        "category": "Website",
+        "srcImage": "https://i.postimg.cc/FKxjSzgS/Screenshot-2023-07-03-122124.png",
+        "tags": ["project", "fashion", "software"],
+        "description": "A Landing page clothing store website using HTML, CSS and Javascript to display products"
       },
 
       {
-        "title": "SwiftMeUp",
-        "category": "App Development",
-        "srcImage": "images/portfolio/portfolio-6.png",
-        "tags": ["iOS", "swift", "developer"],
-        "description": "An iOS development project aimed at creating an innovative app that solves a specific problem or meets a specific need. The app will be developed using Swift, Apple's programming language for iOS and macOS, and will feature a clean and intuitive user interface."
+        "title": "To do List",
+        "category": "To do list APP",
+        "srcImage": "https://i.postimg.cc/Wz8cZMYZ/Screenshot-2023-07-03-123247.png",
+        "tags": ["javascript", "to do", "tasks"],
+        "description": "A to do list app to do basic add, remove and create tasks using HTML, CSS and Javascript"
       }
     ]
   },
 
   "team": {
     "id": "team",
-    "title": "Our <span class='text-primary'>Team</span>",
-    "subtitle": "Meet our amazing crew!",
+    "title": "Testimonials",
     "members": [
       {
-        "name": "Jonathan Moore",
-        "srcAvatar": "images/avatars/person-1.png",
-        "role": "CEO",
-        "quote": "With over 20 years of experience in international development, I've dedicated my career to creating sustainable solutions for communities in need."
+        "name": "Olwethu Bhiya",
+        "srcAvatar": "https://i.postimg.cc/hv7c2QKR/C12-Olwethu-Bhiya-2.jpg",
+        "role": "Colleague at LifeChoice Academy",
+        "quote": "His unwavering commitment to quality and attention to detail are truly remarkable. He consistently produces high-quality work that exceeds expectations, and he never compromises on the standards of excellence. His ability to meet deadlines and handle pressure with ease is a testament to his dedication and determination."
       },
 
       {
-        "name": "Alicia Cole",
-        "srcAvatar": "images/avatars/person-2.png",
-        "role": "Marketing Analist",
-        "quote": "With my expertise in market research and consumer behavior, I help businesses make strategic decisions that drive growth and enhance customer satisfaction."
+        "name": "Ethan Lesar ",
+        "srcAvatar": "https://i.postimg.cc/Rq59yC06/C12-C1-Ethan-Lesar-3.jpg",
+        "role": "Colleague at LifeChoice Academy",
+        "quote": "I have had the pleasure of working with Liyabona on a few projects now and I must say, his attention to detail and dedication to producing high-quality work never ceases to amaze me. He has a great eye for design and is always willing to collaborate and share his ideas. His technical skills are impressive and his ability to problem-solve is truly remarkable. I have no doubt that he will make a significant impact in the industry, and I am honored to have worked alongside him."
       },
 
       {
-        "name": "Sofia Kondakova",
-        "srcAvatar": "images/avatars/person-3.png",
+        "name": "Ridhaa Gabier",
+        "srcAvatar": "https://i.postimg.cc/SKrs99xZ/Ridhaa.png",
+        "role": "Colleague at LifeChoice Academy",
+        "quote": "Liyabona is an outstanding colleague, and I feel lucky to have had the opportunity to work with him. His professionalism, work ethic, and team spirit make him an invaluable asset to any organization, and I am confident that he will continue to achieve great things in his future endeavors."
+      },
+
+      {
+        "name": "Zulaigaih Benjamin",
+        "srcAvatar": "https://i.postimg.cc/zXX52Ljd/zuzu.png",
         "role": "Lead Developer",
-        "quote": "With a proven track record of creating complex software systems, I bring a wealth of technical expertise to the table."
+        "quote": "He is an excellent communicator and team player. He is always willing to go the extra mile to support his colleagues and contribute to the success of our team. He approaches every task with a positive attitude and a willingness to collaborate, and his enthusiasm is contagious."
+      },
+      {
+        "name": "Sakhe Mzolisa",
+        "srcAvatar": "https://i.postimg.cc/3NmSb22f/Sakhe.png",
+        "role": "Team Leader at LifeChoice Academy",
+        "quote": "Liyabona is always positive. He likes to be ahead when doing a project so that he does not need to panic. He manages his time effectively making him the post alert learner."
+      },
+      {
+        "name": "Oslin Johnson",
+        "srcAvatar": "https://i.postimg.cc/fLVf1Mj3/Oslin2.png",
+        "role": "Lecture",
+        "quote": "He puts into effort creating a welcoming and inclusive learning environment. His kindness and compassion towards students is a testament to his character and his commitment to excellence.He is hard worker willing to go the extra mile to ensure that their goal is reached within expected time. He does not let their lack of skill determine them overcoming the challenge."
       }
     ]
   },
 
   "clients": {
     "id": "reviews",
-    "title": "Client <span class='text-primary'>Reviews</span>",
-    "subtitle": "What people say about us!",
+    "title": "RESUME",
 
     "testimonials": [
       {
-        "organization": "Spotify",
-        "srcAvatar": "images/clients/client-spotify.svg",
-        "message": "I am absolutely blown away by the Vue3 website template! The minimalist design is simply stunning, and it's incredibly easy to customize to fit my needs. Plus, it loads super fast, which is crucial for my business. I highly recommend this template!",
-        "staffMember": "John Lee – Engineer"
+        "organization": "Mugg & Bean Restuarant",
+        "srcAvatar": "",
+        "message": " October 2022 - Present: Providing diners with a detailed overview of specials and menu items. Ensuring personal levels of attention during the meal"
       },
       {
-        "organization": "Voloco",
-        "srcAvatar": "images/clients/client-voloco.svg",
-        "message": "I can't say enough good things about this website template. As someone with no coding experience, I was able to create a professional-looking website in no time. The responsiveness is top-notch, and the open-source nature of the code means I can tweak it to my heart's content. This template is a game-changer!",
-        "staffMember": "Any Heather – HR Lead"
+        "organization": "CodeX Cape Town Bootcamp",
+        "srcAvatar": "",
+        "message": " 14 November 2022 - 25 November 2022 : Completed the 2-Week Coding Bootcamp in Introduction to functions with JavaScript"
       },
       {
-        "organization": "Microsoft",
-        "srcAvatar": "images/clients/client-microsoft.svg",
-        "message": "This is hands down the best website template I've ever used. The lightweight codebase makes for a lightning-fast site, and the fully customizable nature allowed me to create a unique and engaging experience for my users. I highly recommend this template to anyone looking for a sleek, modern, and easy-to-use website solution.",
-        "staffMember": "Bill Gates – CEO"
+        "organization": "Mnceba Senior Secondary School",
+        "srcAvatar": "",
+        "message": "january 2017 - November 2019: Completed my High school senior year"
       }
     ]
   },
 
   "contact": {
     "id": "contact",
-    "title": "Contact Us",
-    "subtitle": "Don't hesitate to reach us out!",
+    "title": "Contact Me",
 
     "placeholders": {
       "name": "Your Name *",
@@ -226,16 +239,16 @@
   "footer": {
     "location": {
       "title": "Location",
-      "address": "999 Vue Developer's Avenue – Building 4A, Suite 32 <br> Cupertino – California"
+      "address": "Mitchells Plain – Lenteguer, Cape Town <br> Western Cape"
     },
 
     "links": {
-      "title": "Connect With Us",
+      "title": "Connect With me",
       "items": [
         { "icon": "fa-brands fa-twitter", "href": "https://twitter.com" },
-        { "icon": "fa-brands fa-facebook", "href": "https://facebook.com" },
-        { "icon": "fa-brands fa-linkedin", "href": "https://linkedin.com" },
-        { "icon": "fa-brands fa-spotify", "href": "https://spotify.com" }
+        { "icon": "fa-brands fa-instagram", "href": "https://facebook.com" },
+        { "icon": "fa-brands fa-github", "href": "https://linkedin.com" },
+        { "icon": "fa-brands fa-linkedin", "href": "https://spotify.com" }
       ]
     },
 
@@ -247,6 +260,6 @@
       ]
     },
 
-    "copyright": "Copyright © Ryan Balieiro 2022-2099"
+    "copyright": "Copyright © Liyabona Mxhalisa"
   }
 }
